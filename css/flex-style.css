@@ -1,3 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 header{
+    margin: 0px;
+    display: flex;
     flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: brown;
+    padding: 0;
+}
+
+header a{
+    text-decoration: none;
+    margin: 20px;
+    color: aliceblue;
+}
+
+header a:focus{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color: aliceblue;
+}
+
+header a:first-child{
+    font-weight:800;
+}
+
+main{
+    background-color: #eee;
+    height: 90vh;
+    padding: 60px 0;
+}
+
+main h1:first-child{
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.card-vinho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;       
+}
+
+.vinho{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    border: solid #7b7b7b 1px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.vinho:hover{
+    transition: 0.5s;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    transform: scale(1.05);
+    padding: 30px;
+    border: solid #7b7b7b 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.vinho button{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    width: 80%;
+    border-radius: 80px;
+    background-color: red;
+    border: 0;
+    color: #fff;
+    transform: rotate(1deg);
+}
+
+.vinho img{
+    margin-bottom: 5px;
+    height: 180px;
+    width: 150px;
+}
+
+.vinho h1{
+    font-size: 22px;
 }
