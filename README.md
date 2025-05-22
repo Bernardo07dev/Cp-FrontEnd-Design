@@ -10,3 +10,8 @@
 <p>Pseudo-classe: header a:focus / header a:first-child / .vinho:hover / main h1:first-child</p>
 
 <h2>Bernardo Moreira Lopes Sousa</h2>
+
+<p>Link Repositório: </p> https://github.com/Bernardo07dev/Cp-FrontEnd-Design.git
+
+<p>Link Github Pages: </p> https://bernardo07dev.github.io/Cp-FrontEnd-Design/
+
